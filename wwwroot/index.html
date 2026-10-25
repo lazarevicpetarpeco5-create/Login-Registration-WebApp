@@ -5,6 +5,9 @@
    <title>Login Page </title>
    <link rel="stylesheet" href="login-style.css">    
    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+   <script src="register-window.js" defer></script>
   </head>
  <body>
   
@@ -18,15 +21,23 @@
    <input class="input-username" type="text" placeholder="Username">
    <input class="input-password" type="password" placeholder="password">
 
-   <button class="login-button">Login</button>
-   <button class="forgot-password">Pozabljeno Geslo?</button>
+   <button id="login-button"    class="login-button">Login</button>
+   <button id="forgot-password" class="forgot-password">Pozabljeno Geslo?</button>
+   <button id="register-button" class="register-button">Niste Registrirani?</button>
  </div>
 
 
 
 
 
-
+  <dialog id="register-window" class="register-window">
+      <button class="close-button">x</button>
+      <h2 class="act-create">Create Account</h2>
+      <p class="dialog-text">Enter your registration details.</p>
+      <input class="register-email" type="email" placeholder="Email">
+      <input class="register-mailpass" type="password" placeholder="password">
+      <button class="reg-button">Register</button>
+  </dialog>
 
  </body>
 </html>

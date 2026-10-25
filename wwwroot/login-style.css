@@ -57,10 +57,53 @@
    border: 1px;
    margin-top: 20px;
 }
+.register-button {
+   height: 32px;
+   border-radius: 7.9px;
+   border: 1px;
+   margin-top: 20px;
+}
 
 
 
 
+
+
+.register-window {
+
+   width: 400px;
+   height: 300px;
+   background-color: rgb(197, 213, 215);
+}
+.close-button {
+
+   height: 20px;
+   width:  20px;
+   cursor: pointer;
+}
+.reg-button {
+   
+   border-radius: 7.9px;
+   border: 1px;
+   height: 32px;
+}
+.register-email {
+  width: 130px;
+  height: 32px;
+  border: 1px;
+  border-radius: 7.9px;
+}
+.register-mailpass {
+  width: 130px;
+  height: 32px;
+  border: 1px;
+  border-radius: 7.9px;
+}
+.dialog-text {
+ font-family: 'Baloo 2', cursive;
+
+}
 body {
     background-color: rgb(187, 224, 228);
 }
+
