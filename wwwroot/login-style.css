@@ -1,0 +1,66 @@
+
+
+
+.login-site-header {
+
+   color:rgb(53, 94, 122);
+   font-size: 80px;
+   text-align: center;
+   font-family: 'Baloo 2', cursive;
+
+}
+.p-login-here {
+
+   color:rgb(53, 94, 122);
+   font-size:40px;
+   text-align: center;
+   font-weight: bold;
+   font-family: 'Baloo 2', cursive;
+   
+}
+
+
+
+
+
+.name-pass {
+    width: 400px;
+    margin: 0 auto;
+    transform: translateX(30px);
+    
+}
+.input-username {
+    
+    text-align: center;
+    border: 1px;
+    border-radius: 7.9px;
+    width: 130px;
+    height: 32px;
+}
+.input-password {
+    
+    text-align: center;
+    border: 1px;
+    border-radius: 7.9px;
+    width: 130px;
+    height: 32px;
+}
+.login-button {
+   height: 32px;
+   border-radius: 7.9px;
+   border: 1px;
+   transform: translateX(10px);
+}
+.forgot-password {
+   height: 32px;
+   border-radius: 7.9px;
+   border: 1px;
+   margin-top: 20px;
+}
+
+
+
+
+body {
+    background-color: rgb(187, 224, 228);
+}
