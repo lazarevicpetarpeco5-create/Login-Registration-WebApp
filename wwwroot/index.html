@@ -7,9 +7,10 @@
    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 
-   <script src="register-window.js" defer></script>
+   <script type="module" src="register-window.js" ></script>
+   <script type="module" src="register-validation.js" ></script>
   </head>
- <body>
+<body>
   
  <div>
   <h1 class="login-site-header">LOGIN PAGE</h1>   
@@ -27,17 +28,18 @@
  </div>
 
 
-
-
-
   <dialog id="register-window" class="register-window">
-      <button class="close-button">x</button>
+    <form id="register-form">
+      <button class="close-button" type="button">x</button>
       <h2 class="act-create">Create Account</h2>
       <p class="dialog-text">Enter your registration details.</p>
-      <input class="register-email" type="email" placeholder="Email">
-      <input class="register-mailpass" type="password" placeholder="password">
-      <button class="reg-button">Register</button>
+
+      <input class="register-email" type="email" required placeholder="Email">
+      <input class="register-mailpass" type="password" required placeholder="password">
+       
+      <button class="reg-button" type="submit">Register</button>
+    </form>
   </dialog>
 
- </body>
+</body>
 </html>
