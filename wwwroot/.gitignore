@@ -1,0 +1,51 @@
+# JavaScript dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor files
+.vscode/
+.idea/
+.vs/
+
+# C# / .NET build files
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+
+# .NET user-specific files
+*.user
+*.suo
+*.userosscache
+
+# Test and coverage results
+TestResults/
+coverage/
+*.coverage
+*.trx
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Logs
+*.log
+logs/
+
+# Local SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Frontend build output
+dist/
+build/

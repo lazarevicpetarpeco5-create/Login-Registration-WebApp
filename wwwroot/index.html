@@ -7,7 +7,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 
-   <script type="module" src="register-window.js" ></script>
+   <script type="module" src="windows.js" ></script>
    <script type="module" src="register-validation.js" ></script>
   </head>
 <body>
@@ -40,6 +40,20 @@
       <button class="reg-button" type="submit">Register</button>
     </form>
   </dialog>
+
+  <dialog id="forgotten-password-window" class="forgotten-password-window">
+    <form id="forgotten-form">
+      <button class="close-button" type="button">x</button>
+      <h2 class="act-create">Forgot Your Password?</h2>
+      <p class="dialog-text">Enter Your Email</p>
+
+      <input class="register-email" type="email" required placeholder="Email">
+
+      <button class="forgot-pass" type="submit">Send New Password Request</button>
+    </form>
+  </dialog>
+
+
 
 </body>
 </html>

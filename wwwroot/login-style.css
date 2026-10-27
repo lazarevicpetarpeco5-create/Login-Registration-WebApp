@@ -74,12 +74,14 @@
    width: 400px;
    height: 300px;
    background-color: rgb(197, 213, 215);
+   border-radius: 12px;
 }
 .close-button {
 
    height: 20px;
    width:  20px;
    cursor: pointer;
+   
 }
 .reg-button {
    
@@ -103,7 +105,33 @@
  font-family: 'Baloo 2', cursive;
 
 }
-body {
-    background-color: rgb(187, 224, 228);
+.act-create {
+  font-family: 'Baloo 2', cursive;
+
 }
 
+
+
+
+
+
+
+.forgotten-password-window{
+
+   width: 400px;
+   height: 300px;
+   background-color: rgb(197, 213, 215);
+   border-radius: 12px;
+}
+.forgot-pass {
+   
+   border-radius: 7.9px;
+   border: 1px;
+   height: 32px;
+}
+
+
+
+body {
+  background-color: rgb(187, 224, 228);
+}
